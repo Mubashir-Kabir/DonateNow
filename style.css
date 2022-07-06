@@ -1,0 +1,216 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#banner{
+    text-align: center;
+    height: 95vh;
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 100px;
+}
+#banner .bannerContents h1{
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
+    color: white;
+    line-height: 4.2rem;
+}
+#banner .bannerContents p {
+    text-align: center;
+    margin-right:60px;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: white;
+}
+.bannerContents{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 30vh;
+
+}
+.donateNowBtn {
+    text-decoration: none;
+    padding: 17px 27px;
+    color: white;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+#donateToday{
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.headingAndDescription{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.headingAndDescription h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.headingAndDescription p{
+    opacity: 0.8;
+}
+.amountBoxes{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+.box{
+    width: 15%;
+    margin: 2.5%;
+    padding: 10px;
+    background-color: rgb(236, 239, 239);
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+.box h1 {
+    text-align: center;
+    opacity: 0.75;
+    font-weight:700;
+    
+}
+#activeBox{
+    color: tomato;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: tomato;
+    background-color: rgb(252, 236, 234);
+}
+
+.donateInput{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.donateInput input{
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+/* #donatePlane{
+    margin-top: 150px;
+} */
+
+.donatePlanes{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+.plane{
+    width: 30%;
+    height: 60vh;
+    /* background-color: antiquewhite; */
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#myCreat{
+    height: 70vh;
+}
+
+.mailMe{
+    background-color:bisque;
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+}
+.mailMe input{
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 15px;
+    font-size: 1rem;
+    width: 40%;
+    background-color: rgb(203, 200, 200);
+}
+.mailMe a{
+    margin-left: -5px;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 13px 35px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 5px;
+}
+#contactAndPayment{
+    margin-bottom: 100px;
+}
+.contactNpayment{
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    
+}
+.contact{
+    width: 50%;
+    /* background-color: aquamarine; */
+    margin: 0 60px;
+    text-align: center;
+    border-right: 5px solid gray;
+    background-color: rgb(197, 236, 236);
+    border-radius: 5px;
+}
+.payment{
+    width: 50%;
+    /* background-color: blue; */
+    margin: 0 60px;
+    text-align: center;
+    border-left: 5px solid gray;
+    background-color: rgb(197, 236, 236);
+    border-radius: 5px;
+    
+}
+.paymentLogo{
+    display: flex;
+}
+.paymentLogo img{
+    width: 70%;
+    
+}
+.logo{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+footer{
+    text-align: center;
+    height: 20vh;
+    padding: 15px;
+    background-color: rgb(23, 22, 22);
+}
+footer h3{
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: tomato;
+    margin: 10px;
+}
+footer p{
+    color: white;
+}
+
+/* font-family: 'Poppins',sans-serif;
+font-family: 'Roboto',sans-serif; */
